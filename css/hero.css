@@ -1,0 +1,30 @@
+.hero{
+    background-color: #2E2F42;
+}
+
+.hero h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 1.12px;
+}
+
+.order{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.order:hover{
+    background-color: #404bbf;
+}
+
+.order:focus{
+    background-color: #404bbf;
+}

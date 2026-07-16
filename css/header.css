@@ -1,0 +1,26 @@
+.logo.header{
+    color: #2E2F42;
+}
+
+.accent{
+    color: #4D5AE5;
+}
+.link:hover{
+    color: #404bbf;
+}
+.link:focus{
+    color: #404bbf;
+}
+
+.menu-link a{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+}
+
+.contacts{
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    font-style: normal;
+}
