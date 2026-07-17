@@ -1,5 +1,9 @@
 .hero{
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    padding-left: 141px;
+    padding-right: 141px;
 }
 
 .hero h1{
@@ -9,9 +13,12 @@
     line-height: 1.07;
     text-align: center;
     letter-spacing: 1.12px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    width: 496px;
 }
-
 .order{
+    display: block;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
@@ -19,6 +26,13 @@
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
     cursor: pointer;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin: 0 auto;
+    border: 0;
 }
 
 .order:hover{

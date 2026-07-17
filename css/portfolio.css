@@ -1,8 +1,30 @@
+.container-portfolio{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list-portfolio{
+    display: flex;
+    margin-top: 72px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card-p{
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    padding: 32px 16px 32px 16px;
+}
+
 .decision{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .info{

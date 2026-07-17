@@ -1,9 +1,19 @@
-.feature{
+.list-features{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 24px;
+}
+
+.feature-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .description{
