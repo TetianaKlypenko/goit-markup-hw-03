@@ -3,6 +3,7 @@
 }
 
 .list-participants{
+    margin-top: 72px;
     display: flex;
     gap: 24px;
 }

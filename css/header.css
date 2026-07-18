@@ -1,7 +1,10 @@
-.header{
-    border-bottom: 1px cover #E7E9FC;
+.container.header{
+    display: flex;
+    border-bottom: 1px solid #E7E9FC;
     justify-content: space-between;
+    align-items: center;
 }
+
 .logo.header{
     color: #2E2F42;
     margin-right: 76px;
@@ -15,8 +18,6 @@
     align-items: center;
     gap: 40px;
     margin-right: 340px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .link:hover{
     color: #404bbf;
@@ -25,10 +26,13 @@
     color: #404bbf;
 }
 .menu-link a{
+    display: block;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.32px;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts{
     display: flex;
@@ -37,6 +41,10 @@
     font-size: 16px;
     letter-spacing: 0.32px;
     font-style: normal;
+
+}
+.contacts a{
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
