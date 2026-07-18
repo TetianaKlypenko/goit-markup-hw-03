@@ -1,7 +1,8 @@
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
 .container.header{
     display: flex;
-    border-bottom: 1px solid #E7E9FC;
-    justify-content: space-between;
     align-items: center;
 }
 
